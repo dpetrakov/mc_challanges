@@ -1,16 +1,17 @@
 {
   "name": "challenge1-solana",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Homework of Metacrafter Courses",
+  "main": "airDropByPublicKey.js",
+  "dependencies": {
+    "@solana/web3.js": "^1.63.1",
+    "base-58": "^0.0.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@solana/web3.js": "^1.63.1",
-    "base-58": "^0.0.1",
-  }
+  "license": "ISC"
 }
